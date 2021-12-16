@@ -1,0 +1,33 @@
+<form action="pagina-processa-dados-do-form" method="post">
+
+	<div>
+		<label for="Nome Completo">Nome Completo:</label>
+		<input type="text" id=Nome Completo />
+	</div>
+
+	<div>
+		<label for="Ano de Nacimento">Ano de Nascimento:</label>
+		<input type="text" id="Ano de Nascimento" />
+
+	</div>
+
+	<div>
+<label for="CPF">CPF:</label>
+		<input type="text" id=CPF />
+	
+	</div>
+
+    	<div class="button">
+        <button type="submit">Enviar </button>
+
+        </div>
+</form>
+
+
+
+
+ver alterações
+Um clique sobre um botão de submit envia os dados do formulário para a página de web definida pelo atributo action do elemento <form> .
+<input type="number" name="age" id="age" min="1" max="10" step="2">
+
+The number input type makes sense when the range of valid values is limited, for example a person's age or height. If the range is too large for incremental increases to make sense (such as USA ZIP codes, which range from 00001 to 99999), the tel type might be a better option; it provides the numeric keypad while forgoing the number's spinner UI feature.

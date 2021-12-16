@@ -1,0 +1,68 @@
+header {
+	background: #000000;
+	padding: 0 0;
+}
+
+.logo {
+	position: relative;
+	width: 320px;
+	margin: 0 auto;
+}
+
+body{
+  background-image: linear-gradient(yellow, orange);
+  width: auto;
+  height: auto;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  zoom: 90%;
+  }
+      
+main {
+	width: 940px;
+	margin: auto auto;
+    padding: 0 0;
+    }
+
+form{
+	margin: 39px 0;
+    padding-right: 0px;
+    width: auto;
+}
+
+form label, form legend {
+    display: block; 
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    }
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.enviar{
+width: 40%;
+padding: 15px 0;
+background: black;
+color: white;
+font-weight: bold;
+font-size: 18px;
+border:none;
+border-radius: 5px;
+transition: 1s all;
+cursor: pointer;
+}
+
+.enviar:hover{
+background: darkblue;
+transform: scale(1.2);
+}
+
+footer{
+background-color: black; text-align: center; size: 5px; color: white;
+}

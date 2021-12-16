@@ -1,0 +1,5 @@
+<ol></ol> = tag para abrir listas ordenadas. Exemplo: 1 - 2 - 3, etc...
+<li></li> = tag de itens da lista.
+<ul></ul> = tag para abrir listas não ordenadas (sem ordem numérica).
+
+vcZMEwKMHxYaj8
