@@ -1,5 +1,5 @@
 header {
-	background: yellow;
+	background: rgb(3, 110, 78);
 	padding: 20px 0;
 }
 
@@ -13,7 +13,7 @@ header {
 .caixa1 h1{
 	font-size: 152%; 
 	font-weight: bolder;
-	color: tomato;
+	color: rgb(0, 0, 0);
 	text-align: left;
 }
 
@@ -71,25 +71,109 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+img{
+	max-width: 100%;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+.animais{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+animais img {
+    width: 260px;
+    height: 360px;
+    border-radius: 300px;
+    margin: 5px;
+    border: 3px solid rgb(5, 148, 24);
+}
+
+.copyright {
+		color: black;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		padding-left:flex;
+		justify-content: center;
+		background-color: rgb(3, 110, 78);
+		padding: 15px;
+		position:absolute;
+    	bottom:0;
+    	width:100%;
+		font-size: small;
+}
+
 @media only screen and (max-width: 700px) {
+
 	header {
-	  background-color: white;
+	  background-color: rgb(3, 110, 78);
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
 	}
 
 	.caixa1{
 		display: none;
 	}
 
-	.menu{
+	.menu, .caixa2{
 		display: flex;
 		flex-direction: column;
 	   	justify-content: center;
-		right: 450px;
+		align-items: center;
 	}
 
-	.caixa2{
+	
+	.animais {
 		display: flex;
-  		flex-direction: column;
- 		justify-content: center;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+    	bottom:0;
+    	width:100%;
+		font-size: small;
+		bottom:0;
+		position: fixed;
+		position: fixed;
+		left: 0px;
+    	right: 0px;
+    	margin-bottom: 0px;
+	}
+
+	footer a {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-left: -25px;
+	}
+	.copyright{	
+		color: black;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		padding-left:flex;
+		justify-content: center;
+		background-color: rgb(3, 110, 78);
+		padding: 15px;
+		position:absolute;
+    	bottom:0;
+    	width:100%;
+		font-size: small;
 	}
 }
